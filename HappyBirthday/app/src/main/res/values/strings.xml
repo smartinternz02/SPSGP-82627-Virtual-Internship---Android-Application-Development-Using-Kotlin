@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Birthday Card Generator</string>
+    <string name="happy_birthday_text">Happy Birthday!</string>
+    <string name="wisher_name">Wish from Chayan</string>
+    <string name="greet">Many many happy returns of the day</string>
+</resources>

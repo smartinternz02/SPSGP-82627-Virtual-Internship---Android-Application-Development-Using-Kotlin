@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/happy_birthday_text"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        android:scrollbarStyle="insideInset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/birthday"
+
+        />
+
+    <TextView
+            android:id="@+id/wishing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:shadowColor="#92BDB9"
+            android:shadowDx="2"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+            android:translationY="5px"
+            android:text=""
+            android:textColor="#009688"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+        <TextView
+            android:id="@+id/greet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#92BDB9"
+            android:layout_marginTop="1dp"
+            android:text="@string/greet"
+            android:shadowDx="2"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+            android:translationX="5px"
+            android:textColor="#009689"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wishing"
+            app:layout_constraintEnd_toEndOf="parent"/>
+        <TextView
+            android:id="@+id/wisher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/wisher_name"
+            android:shadowColor="#989393"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="5"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:translationX="5px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_marginTop="32dp"
+        android:layout_width="67dp"
+        android:layout_height="192dp"
+        app:srcCompat="@drawable/ballon_1"
+       app:layout_constraintTop_toBottomOf="@+id/greet"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="67dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/greet"
+        app:srcCompat="@drawable/ballon_1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
