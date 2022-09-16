@@ -4,4 +4,4 @@ Virtual Internship - Android Application Development Using Kotlin
 Here i included all the projects whatever i done in codelab and for the final project submission, In the second position i
 added the final project GroceryList App.
 
-SPSGP-82627-Virtual-Internship---Android-Application-Development-Using-Kotlin/GroceryList/
+https://github.com/smartinternz02/SPSGP-82627-Virtual-Internship---Android-Application-Development-Using-Kotlin/tree/main/GroceryList
