@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="greens_200">#E400856F</color>
+    <color name="greens_500">#005356</color>
+    <color name="greens_700">#BE02969C</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="box_defalutColor" tools:overrise="true">#893F05</color>
+    <color name="box_shade_1">#001314</color>
+    <color name="boxShade_2">#02484B</color>
+    <color name="card">#082C2D</color>
+    <color name="delete">#6C1900</color>
+    <color name="deleteIcon">#7E7E7E</color>
+    <color name="cardHeading">#A7A7A7</color>
+    <color name="Cancel">#965400</color>
+    <color name="dialogBtn">#D7008575</color>
+    <color name="floatingBtn">#9E026655</color>
+    <color name="user_Welcome">#7E7E7E</color>
+    <color name="spinnerBack">#3B5758</color>
+
+</resources>

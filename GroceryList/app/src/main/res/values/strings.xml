@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Grocery List</string>
+    <string-array name="units">
+        <item>Kg.</item>
+        <item>g.</item>
+        <item>pac.</item>
+        <item>lit.</item>
+    </string-array>
+</resources>
